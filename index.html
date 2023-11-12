@@ -12,12 +12,14 @@
                 <div class='navbar'>
                     <nav>
                         <h1 class='logo'>Portfolio</h1>
-                        <ul>
+                        <ul id='sidemenu'>
                             <li><a href='#aboutme'>About Me</a></li>
                             <li><a href='#projects'>Projects</a></li>
                             <li><a href='#competitions'>Competitions</a></li>
                             <li><a href='#activities'>Activities</a></li>
+                            <i class='fas fa-times' onclick='closeMenu()'></i>
                         </ul>
+                        <i class='fas fa-bars' onclick='openMenu()'></i>
                     </nav>
                 </div>
                 <div class='header-text'>
@@ -187,7 +189,8 @@
             </div>
         </div>
 
-
+        <script src="https://kit.fontawesome.com/7168b481d0.js" crossorigin="anonymous"></script>
+        <script src='scripts/togglenav.js'></script>
         <script src='scripts/toggledetails.js'></script>
     </body>
 </html>
